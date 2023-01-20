@@ -1,7 +1,7 @@
 import { MarkdownSettings, Menu, MultilingualSettings, SiteDesign } from ".";
 export interface CommandArguments {
   task: string;
-  auth: "deviceCode" | "password" | "certificate";
+  auth: "deviceCode" | "password" | "certificate" | "secret";
   startFolder: string;
   startFolderRel: string;
   assetLibrary: string;
@@ -35,6 +35,7 @@ export interface CommandArguments {
 
   username?: string;
   password?: string;
+  secret?: string;
   outputFolder?: string;
   tenant?: string;
   appId?: string;

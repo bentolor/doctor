@@ -6,6 +6,12 @@
     ]
   },
   {
+    "title": "1.12.0",
+    "updates": [
+      { "id": 0, "title": "[Enhancement]: Support client secret based authentification" }
+    ]
+  },
+  {
     "title": "1.11.0",
     "updates": [
       { "id": 89, "title": "[Enhancement]: Use Cognitive Service Translation API connection for machine translations" },

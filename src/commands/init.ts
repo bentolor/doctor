@@ -37,7 +37,7 @@ export class Init {
 
     if (!fs.existsSync(configFile)) {
       const jsonContents = JSON.stringify({
-        "$schema": "https://raw.githubusercontent.com/estruyf/doctor/dev/schema/1.2.0.json",
+        "$schema": "https://raw.githubusercontent.com/estruyf/doctor/dev/schema/1.2.1.json",
         auth: options.auth,
         username: options.username,
         password: options.password,
